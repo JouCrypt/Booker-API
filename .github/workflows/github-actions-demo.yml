@@ -1,6 +1,6 @@
 #Actions with Newman
-
-on: [push, pullrequest
+name: "Newman Tests"
+on: [push, pull_request]
 
 jobs:
   build:
